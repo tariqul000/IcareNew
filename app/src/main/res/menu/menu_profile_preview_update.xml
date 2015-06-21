@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProfilePreviewUpdate" >
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:src="@drawable/home"
+        android:title="@string/menu_Home"/>
+    <item
+        android:id="@+id/deleteProfile"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:src="@drawable/home"
+        android:title="@string/deleteProfile"/>
+
+</menu>

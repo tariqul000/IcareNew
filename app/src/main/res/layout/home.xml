@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/back"
+    tools:context=".Home"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/abc_ratingbar_full_material"
+
+                android:text="Add New Doctor"
+                android:id="@+id/btnAddNewDoctor" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"
+                android:text="Update Diet Chart"
+
+                android:drawableLeft="@drawable/update"
+                android:id="@+id/btnUpdateDietChart" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Diet Information"
+                android:drawableLeft="@drawable/diet"
+                android:id="@+id/buttonDietInfo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="false"
+                android:text="Doctor List "
+                android:id="@+id/buttonDoctorList" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Profile View"
+                android:drawableLeft="@drawable/person"
+                android:id="@+id/buttonProfileView" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

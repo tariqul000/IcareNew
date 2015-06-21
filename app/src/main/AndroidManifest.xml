@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stackoverflow.net.icare" >
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileCreate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ProfilePreviewUpdate"
+            android:label="@string/title_activity_icare_profile_preview_acitvity" >
+        </activity>
+        <activity
+            android:name=".CreateDietChart"
+            android:label="@string/title_activity_icare_create_diet_chart" >
+        </activity>
+        <activity
+            android:name=".DietListTodayAndUpcoming"
+            android:label="@string/title_activity_icare_diet_list" >
+        </activity>
+        <activity
+            android:name=".DailyDietChartView"
+            android:label="@string/title_activity_icare_daily_diet_chart_view" >
+        </activity>
+        <activity
+            android:name=".DietChartHistory"
+            android:label="@string/title_activity_icare_diet_history" >
+        </activity>
+        <activity
+            android:name=".DoctorProfileCreate"
+            android:label="@string/title_doctor_profile_create" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_home" >
+        </activity>
+        <activity
+            android:name=".DoctorList"
+            android:label="@string/title_doctor_list" >
+        </activity>
+    </application>
+
+</manifest>
