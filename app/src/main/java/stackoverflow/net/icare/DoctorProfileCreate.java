@@ -1,5 +1,6 @@
 package stackoverflow.net.icare;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -105,6 +106,9 @@ public class DoctorProfileCreate extends   ActionBarActivity implements
         if (doctorProfileDataSource.insert(doctorProfileDataInsert) == true) {
             toast = Toast.makeText(getApplicationContext(), "Saved Successfully", Toast.LENGTH_LONG);
             toast.show();
+
+            Intent intent= new Intent(this, Home.class);
+            startActivity(intent);
 
         } else {
             toast = Toast.makeText(getApplicationContext(), "not Saved", Toast.LENGTH_LONG);

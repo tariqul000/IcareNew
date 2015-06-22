@@ -44,7 +44,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
     // database name and version
 	private static final String DATABASE_NAME = "iCare.db";
-	private static final int DATABASE_VERSION = 1;
+	private static final int DATABASE_VERSION = 2;
 
 	// Database creation sql statement
 	private static final String DATABASE_CREATE_PROFILE = "create table "

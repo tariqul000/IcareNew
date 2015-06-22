@@ -123,6 +123,9 @@ public class DoctorProfile {
         this.email = email;
     }
 
-
+    @Override
+    public String toString() {
+        return "Name: "+dname +"  Number:"+ phone;
+    }
 }
 
