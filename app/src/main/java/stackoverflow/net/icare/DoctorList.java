@@ -5,12 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import stackoverflow.net.icare.adapter.DoctorAdapter;
 import stackoverflow.net.icare.database.DoctorProfileDataSource;
 import stackoverflow.net.icare.utill.DoctorProfile;
 
@@ -40,7 +38,7 @@ public class DoctorList extends ActionBarActivity {
 
        // arrayListEmployee = new ArrayList<Employee>();
         arrayListDoctor = database.getAllDoctors();
-        Toast.makeText(getApplicationContext(), String.valueOf(arrayListDoctor), Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), String.valueOf(arrayListDoctor), Toast.LENGTH_LONG).show();
         lstView = (ListView) findViewById(R.id.LV);
 /*
         for (int i = 0; i > arrayListDoctor.size(); i++) {
