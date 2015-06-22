@@ -125,7 +125,7 @@ public class DoctorProfile {
 
     @Override
     public String toString() {
-        return "Name: "+dname +"  Number:"+ phone;
+        return "Name: "+dname +" Number:"+ phone;
     }
 }
 
